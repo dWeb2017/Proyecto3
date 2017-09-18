@@ -1,0 +1,6 @@
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\bin\Proyecto3DW.dll.config
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\bin\Proyecto3DW.dll
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\bin\Proyecto3DW.pdb
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\obj\Debug\Proyecto3DW.csprojResolveAssemblyReference.cache
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\obj\Debug\Proyecto3DW.dll
+c:\users\labtronic\documents\visual studio 2013\Projects\Proyecto3DW\Proyecto3DW\obj\Debug\Proyecto3DW.pdb
