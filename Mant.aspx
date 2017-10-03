@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <style ="bootstrap-original.css"></style>
     <head>
-
+        <img src="Mantenimiento.jpg" width="auto" height="auto"  />
            <link rel="stylesheet" href="css/bootstrap-original.css" />
         <title>Proyecto 3</title>
     </head>
@@ -39,4 +39,9 @@
 
 
     </body>
+
+     <footer>
+        <img src="Mantenimiento_piedepagina.jpg" width="auto" height="auto"/>
+    </footer>
+
 </html>
