@@ -5,6 +5,7 @@
     <head>
     
             <title>Proyecto 3</title>
+        <img src="Productos.jpg" width="auto" height="auto"  />
         <link rel="stylesheet" href="css/Site.css" />
         <header>Proyecto 3 del curso Desarrollo Web</header>
     
@@ -12,7 +13,7 @@
 
     <body>
 
-        <h3>Hola mundo!</h3>
+        <h3>Hola Usuario!</h3>
 
         <div class="login-page">
             <div class="text-center">
@@ -38,4 +39,9 @@
 
 
     </body>
+
+     <footer>
+        <img src="Productos_piedepagina.jpg" width="auto" height="auto"/>
+    </footer>
+
 </html>

@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,15 +72,20 @@
     <Content Include="css\bootstrap-original.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\Site.css" />
-    <Content Include="Footer.png" />
-    <Content Include="header.png" />
+    <Content Include="Footer.jpg" />
+    <Content Include="header.jpg" />
     <Content Include="Mant.aspx" />
+    <Content Include="Mantenimiento.jpg" />
+    <Content Include="Mantenimiento_piedepagina.jpg" />
     <Content Include="Principal.aspx" />
     <Content Include="Productos.aspx" />
+    <Content Include="Productos.jpg" />
+    <Content Include="Productos_piedepagina.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conexion.cs" />
     <Compile Include="Mant.aspx.cs">
       <DependentUpon>Mant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,6 +108,11 @@
       <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
