@@ -26,7 +26,7 @@
     <table><td>OP</td></table>
     </br></br>
     ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-     <a href="javascript:abrir('Productos.aspx')"> <button class="button1">Productos</button> </a>
+     <a href="javascript:abrir('Productos.aspx')"> <button class="button1">Limpieza</button> </a>
     <script>
         function abrir(url) {
             open(url, '');

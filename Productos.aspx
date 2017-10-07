@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+
     
             <title>Proyecto 3</title>
         <img src="Productos.jpg" width="auto" height="auto"  />
@@ -13,27 +14,63 @@
 
     <body>
 
-        <h3>Hola Usuario!</h3>
+        <h3>Bienvenido</h3>
 
         <div class="login-page">
             <div class="text-center">
-                <h1>Bienvenido</h1>
+                <h1>Seleccione un producto</h1>
                 <p>Iniciar sesión </p>
             </div>
-            
+
             <form method="post" action="auth.php" class="clearfix">
                 <div class="form-group">
-                    <label for="username" class="control-label">Usario</label>
-                    <input type="name" class="form-control" name="username" placeholder="Usario">
+                     <asp:Label ID="Label1" runat="server"></asp:Label>
+                    <asp:Textbox ID="TextBox1" runat="server"></asp:Textbox>
                 </div>
                 <div class="form-group">
                     <label for="Password" class="control-label">Contraseña</label>
-                    <input type="password" name="password" class="form-control" placeholder="Contraseña">
+                   <asp:Textbox ID="TextBox2" runat="server"></asp:Textbox>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-info  pull-right">Entrar</button>
                 </div>
             </form>
+            <form action="http://www.mi-dominio.com" method="post">
+            <input type=image src="images/aseop.png" width="85" height="75">
+            </form>
+           
+               <br />
+            &nbsp;&nbsp;<br />
+            &nbsp;
+     <a href="javascript:abrir('Productos.aspx')"> <button class="boton_1">Aseo Personal</button> </a>
+    <script>
+        function abrir(url) {
+            open(url, '');
+        }
+        </script>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="javascript:abrir('Mantenimiento.html')"> <button class="boton_1">Cosméticos</button> </a>
+    <script>
+        function abrir(url) {
+            open(url, '');
+        }
+        </script>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp;&nbsp;
+    <a href="javascript:abrir('Otro.html')"> <button class="boton_1">Instrumentos Musicales</button> </a>
+    <script>
+        function abrir(url) {
+            open(url, '');
+        }
+        </script>
+
         </div>
       
 

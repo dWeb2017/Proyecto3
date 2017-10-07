@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
+using System.Data;
 using System.Web.UI.WebControls;
 
 namespace Proyecto3DW
 {
-    public partial class Productosaspx : System.Web.UI.Page
+    public partial class Productos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -25,7 +26,7 @@ namespace Proyecto3DW
 
         private void LimpiarFormulario()
         {
-            Response.Redirect("/WFPersona.aspx");
+            Response.Redirect("/Productos.aspx");
         }
 
         private void LlenarFormulario(String strId)
@@ -34,6 +35,7 @@ namespace Proyecto3DW
             DataTable tabla = new DataTable();
             tabla = con.LlenarTabla("Persona", "Id =" + strId);
             //llenar los textbox
+            
             TextBox1.Text = tabla.Rows[0].ItemArray[1].ToString();
             TextBox2.Text = tabla.Rows[0].ItemArray[2].ToString();
             TextBox3.Text = tabla.Rows[0].ItemArray[3].ToString();
