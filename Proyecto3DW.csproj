@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,18 +69,68 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="instuments.aspx" />
+    <Content Include="cosmeticos.aspx" />
+    <Content Include="aseopersonal.aspx" />
     <Content Include="css\bootstrap-original.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\Site.css" />
-    <Content Include="Footer.png" />
-    <Content Include="header.png" />
+    <Content Include="Footer.jpg" />
+    <Content Include="header.jpg" />
+    <Content Include="images\aseop.png" />
+    <Content Include="images\Aseopersonal\528765.png" />
+    <Content Include="images\Aseopersonal\528767.png" />
+    <Content Include="images\Aseopersonal\528776.png" />
+    <Content Include="images\Aseopersonal\528777.png" />
+    <Content Include="images\Aseopersonal\528784.png" />
+    <Content Include="images\Aseopersonal\528794.png" />
+    <Content Include="images\Cosmeticos\391648.png" />
+    <Content Include="images\Cosmeticos\391650.png" />
+    <Content Include="images\Cosmeticos\391652.png" />
+    <Content Include="images\Cosmeticos\391674.png" />
+    <Content Include="images\Cosmeticos\391680.png" />
+    <Content Include="images\Cosmeticos\391709.png" />
+    <Content Include="images\Cosmetics.jpg" />
+    <Content Include="images\Instrumentos\129592.png" />
+    <Content Include="images\Instrumentos\129594.png" />
+    <Content Include="images\Instrumentos\129611.png" />
+    <Content Include="images\Instrumentos\129614.png" />
+    <Content Include="images\Instrumentos\129625.png" />
+    <Content Include="images\Instrumentos\129631.png" />
+    <Content Include="images\music.gif" />
     <Content Include="Mant.aspx" />
+    <Content Include="Mantenimiento.jpg" />
+    <Content Include="Mantenimiento_piedepagina.jpg" />
     <Content Include="Principal.aspx" />
     <Content Include="Productos.aspx" />
+    <Content Include="Productos.jpg" />
+    <Content Include="Productos_piedepagina.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="instuments.aspx.cs">
+      <DependentUpon>instuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instuments.aspx.designer.cs">
+      <DependentUpon>instuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cosmeticos.aspx.cs">
+      <DependentUpon>cosmeticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cosmeticos.aspx.designer.cs">
+      <DependentUpon>cosmeticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aseopersonal.aspx.cs">
+      <DependentUpon>aseopersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aseopersonal.aspx.designer.cs">
+      <DependentUpon>aseopersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="conexion.cs" />
     <Compile Include="Mant.aspx.cs">
       <DependentUpon>Mant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,6 +153,11 @@
       <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

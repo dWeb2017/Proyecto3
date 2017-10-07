@@ -1,5 +1,6 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -7,6 +8,7 @@ body {
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
+
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -36,3 +38,23 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+
+  .boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
